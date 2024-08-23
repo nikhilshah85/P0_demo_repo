@@ -1,0 +1,20 @@
+Security of an Application 
+
+	1. Allow access only to authorised users, when they login  else no content
+	2. What are the ways 
+		Applications today follows oAuth for users
+			open source authentication 
+		
+		End users points of view - we have to remember lots of username and password
+			this creadentials can get compromised, user may forget, 
+			user may choose same password everywhere
+
+		1. why not authenticate users with their official accounts office365, fbaccount, linkedin,twitter,google This platofrms are already storting your credentials
+
+		2. provide self service to user for 
+			create account on ur own, reset password, delete the profile,lock etc..
+
+		3. immplatement OTP authentication, Mobile app authenticator
+
+	we will test it with MVC application - because html, css and JS are already developed
+	it can be done with WebAPI as well but, we will have to create UI
